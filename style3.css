@@ -1,0 +1,52 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #007bff, #00b4d8);
+  color: white;
+  padding: 100px 20px;
+}
+
+.highlight {
+  color: #ffd700;
+}
+
+.hero .btn {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  transition: 0.3s;
+}
+
+.hero .btn:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Projects */
+.project-card {
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+h2 {
+  font-weight: 600;
+  color: #007bff;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  font-size: 14px;
+}

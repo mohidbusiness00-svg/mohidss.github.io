@@ -1,0 +1,210 @@
+
+    /* Header style for other pages */
+    .navbar {
+      background-color: #0077b6;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    }
+    body{
+      background-color: skyblue;
+    }
+    .navbar-brand {
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.6rem;
+    }
+
+    .navbar-brand:hover {
+      color: #caf0f8;
+    }
+
+    .nav-link {
+      color: #fff !important;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: #caf0f8 !important;
+    }
+
+    .btn-contact {
+      background-color:yellow;
+      color: black !important;
+      padding: 6px 16px;
+      border-radius: 25px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn-contact:hover {
+      background-color: yellow;
+      color:orange !important;
+    }
+    .carousel-caption{
+      bottom: 20%; 
+      transform: translate(0,50%);
+      width: 100%;
+      height: 400px;
+      text-align: center;
+    }
+    .carousel-caption h5{
+      font-size: 1rem;
+      font-weight: 700;
+      color: white;
+    }
+     @media (max-width: 500px){
+      .carousel-caption h5{
+        font-size: 2rem;
+      }
+    }
+      .carousel-item img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+      } 
+      .sliders-row{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 300px;
+
+      }
+     .container{
+        margin-top: 100px; 
+     }
+     .container-row{
+       
+       display: grid;
+       grid-template-columns: repeat( 4,1fr);
+       width:90%;
+       gap: 15px;
+       border-radius: 40px;
+       padding: 12px;
+       margin-top: 100px;
+      
+
+    }
+    .product{
+      background-color:white;
+      padding:20px;
+      border-radius: 40px;
+      text-align: center;
+      box-sizing: border-box;
+      transition: all 0.3s ease;
+      background-color: skyblue;
+    }
+    .product:hover{
+      transform: translate(10px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+    .product img{
+        width: 70%;
+        height:auto auto auto;
+        border-radius: 8px;
+    }
+    .product h3{
+        color: black;
+        background-color:white;
+        margin: 10px 0 5px;
+        font-size: 13px;
+        background-color: skyblue;
+    }
+    .price{
+        color: aqua;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .name h2{
+        margin-left: 10px;
+        font-size: 28px;
+        text-align: left;
+        font-weight:bold;
+    }
+    .name h4{
+        margin-left: 140px;
+        margin-right: 50px;
+        border: 8px solid white;
+        /* border-radius: 15px; */
+        background-color: white;
+        font-size: 15px;
+        color: orangered;
+        padding: 20px;
+        
+    }
+    .price-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:8px;
+        margin-bottom: 8px;
+    }
+    .old-price{
+        text-decoration: line-through;
+        font-size: 11px;
+        text-align: center;
+         margin-right: 20px;
+    }
+    .price-new{
+        color:yellow;
+        font-weight: 700;
+        font-size: 17px;
+    
+    }
+    .badge{
+        font-size: 10px;
+        justify-content: right;
+        background-color:black(252, 124, 78);
+        color: black;
+    }
+    .border-top{
+     margin-top: -500px;
+     background-color: #0077b6;
+    }
+  /* footer {
+  margin-top: 0 !important;
+  padding-top: 10px !important;
+  background-color: #0077b6; */
+
+
+section:last-of-type,
+main:last-of-type {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+  .btn{
+    background-color:#0077b6;
+      color: black !important;
+      padding: 6px 16px;
+      border-radius: 25px;
+      font-weight: 600;
+       transition: 0.3s;
+  }
+  .border-top{
+ background-color: #0077b6;
+  }
+.container-text{
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  animation: fadeIn 3s ease forwards;
+}
+.container-text:hover{
+  position: absolute;
+  transform: translateX(-50%);
+  animation: underline 3s ease forwards;
+}
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes underline{
+  from {width: 0;}
+  to {width: 100px;}
+}
