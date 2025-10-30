@@ -428,4 +428,48 @@ body{
     .btn-side{
       background-color: #0077bc;
       border-radius: 8px;
+
     }
+@media (max-width: 992px) {
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  .hero-content input {
+    width: 200px;
+  }
+  .product {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    height: 60vh;
+  }
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product {
+    width: 90%;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
